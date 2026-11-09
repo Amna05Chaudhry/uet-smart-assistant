@@ -1,30 +1,34 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:smart_assistant_uni/main.dart';
+import 'package:latlong2/latlong.dart';
+import 'package:smart_assistant_uni/services/campus_routing.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  group('CampusRouter', () {
+    final nodes = {
+      'a': const LatLng(32.0, 74.0),
+      'b': const LatLng(32.001, 74.0),
+      'c': const LatLng(32.002, 74.0),
+      'd': const LatLng(32.0, 74.01), // far detour
+    };
+    final router = CampusRouter(nodes, [
+      ['a', 'b'],
+      ['b', 'c'],
+      ['a', 'd'],
+      ['d', 'c'],
+    ]);
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    test('finds the shortest path through the walkway graph', () {
+      final r = router.route('a', 'c')!;
+      expect(r.points, [nodes['a'], nodes['b'], nodes['c']]);
+      expect(r.metres, closeTo(222, 3)); // 0.002 deg latitude ~ 222 m
+    });
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    test('same start and end gives a zero-length route', () {
+      expect(router.route('b', 'b')!.metres, 0);
+    });
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    test('unknown node returns null', () {
+      expect(router.route('a', 'zzz'), isNull);
+    });
   });
 }
