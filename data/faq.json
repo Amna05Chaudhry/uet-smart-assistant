@@ -1,0 +1,1839 @@
+{
+  "_note": "SAMPLE DATA. Campus-specific details (fees, dates, contacts, locations, names) are realistic placeholders for a student demo, not official UET Narowal information. Verify with the university before relying on them.",
+  "version": 1,
+  "items": [
+    {
+      "id": 1,
+      "category": "Admissions",
+      "question": "How do I apply for admission to UET Narowal?",
+      "alternatives": [
+        "admission process",
+        "how to get admission",
+        "apply online"
+      ],
+      "answer": "Apply through the UET Lahore online admission portal (UET Narowal is a sub-campus of UET Lahore). Create an account, fill in your academic record, upload documents, pay the processing fee and choose UET Narowal programmes in your preference list.",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "category": "Admissions",
+      "question": "What is the entry test for engineering admission?",
+      "alternatives": [
+        "which test is required",
+        "ECAT",
+        "entrance exam"
+      ],
+      "answer": "Engineering programmes require the ECAT (Engineering College Admission Test) conducted by UET Lahore. Some computer science seats may also accept other recognised tests; check the current prospectus.",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "category": "Admissions",
+      "question": "How is the admission merit (aggregate) calculated?",
+      "alternatives": [
+        "merit formula",
+        "aggregate calculation",
+        "how is merit made"
+      ],
+      "answer": "Sample formula used by UET campuses: Matric 17% + FSc / A-level equivalent 50% + ECAT 33%. Always confirm the weights in the current year's prospectus.",
+      "verified": false
+    },
+    {
+      "id": 4,
+      "category": "Admissions",
+      "question": "What was last year's closing merit for Computer Science?",
+      "alternatives": [
+        "closing merit CS",
+        "last merit computer science",
+        "cut off computer science"
+      ],
+      "answer": "Sample figure: the last open-merit seat for BSc Computer Science at Narowal closed at about 72% aggregate. Closing merits change every year, so treat this only as a rough guide.",
+      "verified": false
+    },
+    {
+      "id": 5,
+      "category": "Admissions",
+      "question": "What was last year's closing merit for Electrical Engineering?",
+      "alternatives": [
+        "closing merit EE",
+        "cut off electrical"
+      ],
+      "answer": "Sample figure: about 74% aggregate for the last open-merit Electrical Engineering seat. It changes every year.",
+      "verified": false
+    },
+    {
+      "id": 6,
+      "category": "Admissions",
+      "question": "What documents are required for admission?",
+      "alternatives": [
+        "documents needed",
+        "papers for admission",
+        "admission documents list"
+      ],
+      "answer": "Matric and FSc (or equivalent) mark sheets, CNIC or B-form, father's / guardian's CNIC, ECAT result card, domicile, 4 passport-size photos with blue background, and an IBCC equivalence certificate for O/A-level students.",
+      "verified": false
+    },
+    {
+      "id": 7,
+      "category": "Admissions",
+      "question": "When do admissions open?",
+      "alternatives": [
+        "admission dates",
+        "admission schedule",
+        "when will admission start"
+      ],
+      "answer": "Sample schedule: undergraduate admissions usually open in July after the ECAT result, and classes for freshers start in late September or October. Watch the UET Lahore admissions page for the exact dates.",
+      "verified": false
+    },
+    {
+      "id": 8,
+      "category": "Admissions",
+      "question": "Is there a quota for students from Narowal district?",
+      "alternatives": [
+        "local quota",
+        "district quota",
+        "reserved seats Narowal"
+      ],
+      "answer": "Sample policy: a share of seats is reserved for candidates with a Narowal-district domicile. Select the quota on the admission form and attach your domicile.",
+      "verified": false
+    },
+    {
+      "id": 9,
+      "category": "Admissions",
+      "question": "Are there reserved seats for special categories?",
+      "alternatives": [
+        "sports quota",
+        "disabled quota",
+        "army quota",
+        "special seats"
+      ],
+      "answer": "UET campuses usually reserve seats for sports, disabled persons, children of armed forces personnel, minorities and other categories listed in the prospectus. You must apply for them on the online form.",
+      "verified": false
+    },
+    {
+      "id": 10,
+      "category": "Admissions",
+      "question": "Can A-level students apply?",
+      "alternatives": [
+        "O level A level admission",
+        "IBCC equivalence"
+      ],
+      "answer": "Yes. A-level students apply with an IBCC equivalence certificate. If the final A-level result is pending, submit the equivalence based on O-level and AS results and update it later.",
+      "verified": false
+    },
+    {
+      "id": 11,
+      "category": "Admissions",
+      "question": "What is the admission processing fee?",
+      "alternatives": [
+        "application fee",
+        "form fee",
+        "admission form charges"
+      ],
+      "answer": "Sample amount: Rs. 2,500 per application, paid through the challan generated on the admission portal.",
+      "verified": false
+    },
+    {
+      "id": 12,
+      "category": "Admissions",
+      "question": "How do I check the merit list?",
+      "alternatives": [
+        "merit list",
+        "selection list",
+        "am I selected"
+      ],
+      "answer": "Merit lists are published on the UET Lahore admissions portal. Log in with your application ID to see your status, then pay the first-semester fee before the deadline to confirm your seat.",
+      "verified": false
+    },
+    {
+      "id": 13,
+      "category": "Admissions",
+      "question": "What happens if I miss the fee deadline after selection?",
+      "alternatives": [
+        "missed fee deadline",
+        "late fee after merit list"
+      ],
+      "answer": "Your seat is normally cancelled and offered to the next candidate in the next merit list. Contact the admissions office immediately if you have a genuine reason.",
+      "verified": false
+    },
+    {
+      "id": 14,
+      "category": "Admissions",
+      "question": "Can I change my department after admission?",
+      "alternatives": [
+        "department change",
+        "migrate to another program",
+        "change discipline"
+      ],
+      "answer": "Department change is only possible during the admission process through the next merit lists, if your aggregate qualifies. After classes start, a change needs approval from the competent authority and is rarely granted.",
+      "verified": false
+    },
+    {
+      "id": 15,
+      "category": "Admissions",
+      "question": "Can I migrate from another university to UET Narowal?",
+      "alternatives": [
+        "transfer from another university",
+        "migration case"
+      ],
+      "answer": "Migration is considered case by case, usually only from HEC-recognised engineering universities with equivalent programmes and after the first year. Apply to the Registrar office with transcripts and a no-objection certificate.",
+      "verified": false
+    },
+    {
+      "id": 16,
+      "category": "Admissions",
+      "question": "Does UET Narowal offer evening or weekend programmes?",
+      "alternatives": [
+        "evening classes",
+        "weekend program",
+        "self finance evening"
+      ],
+      "answer": "Sample information: no evening programmes are offered at the Narowal campus at the moment; all undergraduate classes run in the morning.",
+      "verified": false
+    },
+    {
+      "id": 17,
+      "category": "Admissions",
+      "question": "Does UET Narowal offer master's or PhD programmes?",
+      "alternatives": [
+        "MS program",
+        "postgraduate",
+        "MSc",
+        "PhD"
+      ],
+      "answer": "Sample information: the Narowal campus currently focuses on undergraduate programmes. Postgraduate programmes are offered at the UET Lahore main campus.",
+      "verified": false
+    },
+    {
+      "id": 18,
+      "category": "Admissions",
+      "question": "What is the minimum FSc marks requirement?",
+      "alternatives": [
+        "eligibility criteria",
+        "minimum marks",
+        "60 percent"
+      ],
+      "answer": "For engineering programmes, PEC rules require at least 60% marks in FSc pre-engineering (or equivalent). Computer Science normally requires at least 50% with mathematics.",
+      "verified": false
+    },
+    {
+      "id": 19,
+      "category": "Admissions",
+      "question": "Can FSc pre-medical students apply for engineering?",
+      "alternatives": [
+        "pre medical to engineering",
+        "medical students computer science"
+      ],
+      "answer": "Pre-medical students can apply after passing the additional mathematics deficiency course (8 subjects) required by HEC/PEC, or for Computer Science where allowed by the prospectus.",
+      "verified": false
+    },
+    {
+      "id": 20,
+      "category": "Admissions",
+      "question": "Can DAE (diploma) holders apply?",
+      "alternatives": [
+        "DAE students",
+        "diploma of associate engineer",
+        "polytechnic"
+      ],
+      "answer": "Yes, a separate quota exists for DAE holders in the relevant technology. They also take the ECAT and are ranked within the DAE quota.",
+      "verified": false
+    },
+    {
+      "id": 21,
+      "category": "Fees & Scholarships",
+      "question": "What is the semester fee?",
+      "alternatives": [
+        "fee structure",
+        "how much fee",
+        "tuition fee",
+        "per semester fee"
+      ],
+      "answer": "Sample fee structure: about Rs. 62,000 per semester for engineering and Rs. 58,000 for Computer Science (regular / open merit). Self-finance seats cost more. Check the fee notice for the current year.",
+      "verified": false
+    },
+    {
+      "id": 22,
+      "category": "Fees & Scholarships",
+      "question": "What is the fee for self-finance seats?",
+      "alternatives": [
+        "self finance fee",
+        "self-finance"
+      ],
+      "answer": "Sample amount: about Rs. 1,40,000 per semester for self-finance engineering seats. Self-finance seats have a separate merit list.",
+      "verified": false
+    },
+    {
+      "id": 23,
+      "category": "Fees & Scholarships",
+      "question": "How do I pay the fee?",
+      "alternatives": [
+        "fee payment method",
+        "where to pay fee",
+        "fee challan"
+      ],
+      "answer": "Download your fee challan from the student portal and pay at any branch of the designated bank, or by 1Bill / internet banking using the challan number. Keep the paid copy for record.",
+      "verified": false
+    },
+    {
+      "id": 24,
+      "category": "Fees & Scholarships",
+      "question": "What is the fine for late fee payment?",
+      "alternatives": [
+        "late fee fine",
+        "fee late charges"
+      ],
+      "answer": "Sample policy: Rs. 100 per day after the due date for the first two weeks; after that your name may be struck off and readmission fee applies.",
+      "verified": false
+    },
+    {
+      "id": 25,
+      "category": "Fees & Scholarships",
+      "question": "Can I pay the fee in installments?",
+      "alternatives": [
+        "fee installment",
+        "pay fee in parts"
+      ],
+      "answer": "Installments can be requested from the Treasurer office in genuine financial hardship. Submit an application with your father's income proof before the due date.",
+      "verified": false
+    },
+    {
+      "id": 26,
+      "category": "Fees & Scholarships",
+      "question": "What scholarships are available?",
+      "alternatives": [
+        "scholarship list",
+        "financial aid",
+        "need based scholarship"
+      ],
+      "answer": "Common options for UET students: HEC Ehsaas (need-based) undergraduate scholarship, Punjab Educational Endowment Fund (PEEF), merit scholarships for semester toppers, and Prime Minister's laptop / fee-reimbursement schemes when announced.",
+      "verified": false
+    },
+    {
+      "id": 27,
+      "category": "Fees & Scholarships",
+      "question": "How do I apply for the Ehsaas scholarship?",
+      "alternatives": [
+        "ehsaas scholarship",
+        "HEC need based"
+      ],
+      "answer": "Apply online on the HEC Ehsaas portal when the call opens, then submit the printed form with income documents to the Student Affairs / Financial Aid office. Shortlisted students are interviewed on campus.",
+      "verified": false
+    },
+    {
+      "id": 28,
+      "category": "Fees & Scholarships",
+      "question": "How do I apply for the PEEF scholarship?",
+      "alternatives": [
+        "PEEF",
+        "punjab endowment fund"
+      ],
+      "answer": "PEEF calls applications every year for students with Punjab domicile and family income below the published limit. Apply online and submit the form to the Financial Aid office.",
+      "verified": false
+    },
+    {
+      "id": 29,
+      "category": "Fees & Scholarships",
+      "question": "Is there a merit scholarship for toppers?",
+      "alternatives": [
+        "merit scholarship",
+        "position holder scholarship"
+      ],
+      "answer": "Sample policy: students with a semester GPA of 3.7+ in the top 5% of their class get a tuition waiver for the next semester.",
+      "verified": false
+    },
+    {
+      "id": 30,
+      "category": "Fees & Scholarships",
+      "question": "Is there a fee concession for siblings?",
+      "alternatives": [
+        "sibling concession",
+        "brother sister discount"
+      ],
+      "answer": "Sample policy: if two siblings study at UET at the same time, the younger one can apply for a 25% tuition concession at the Treasurer office.",
+      "verified": false
+    },
+    {
+      "id": 31,
+      "category": "Fees & Scholarships",
+      "question": "Is the fee refundable if I leave?",
+      "alternatives": [
+        "fee refund",
+        "refund policy"
+      ],
+      "answer": "HEC refund policy: full tuition refund (minus admission fee) until the 7th day of classes, 50% until the 15th day, none afterwards. Security deposits are refunded on clearance.",
+      "verified": false
+    },
+    {
+      "id": 32,
+      "category": "Fees & Scholarships",
+      "question": "What is the hostel fee?",
+      "alternatives": [
+        "hostel charges",
+        "hostel rent"
+      ],
+      "answer": "Sample amount: about Rs. 15,000 per semester for a shared room plus a refundable security of Rs. 5,000. Mess charges are separate and paid monthly.",
+      "verified": false
+    },
+    {
+      "id": 33,
+      "category": "Fees & Scholarships",
+      "question": "What is the transport fee?",
+      "alternatives": [
+        "bus fee",
+        "transport charges",
+        "point fee"
+      ],
+      "answer": "Sample amount: Rs. 9,000 per semester for a university bus pass, valid on all routes.",
+      "verified": false
+    },
+    {
+      "id": 34,
+      "category": "Hostels",
+      "question": "Does UET Narowal have hostels?",
+      "alternatives": [
+        "hostel facility",
+        "accommodation",
+        "is there a hostel"
+      ],
+      "answer": "Yes (sample data): separate boys' and girls' hostels are available on or near campus with shared rooms, a mess, Wi-Fi and a common room.",
+      "verified": false
+    },
+    {
+      "id": 35,
+      "category": "Hostels",
+      "question": "How do I apply for a hostel room?",
+      "alternatives": [
+        "hostel registration",
+        "hostel admission",
+        "get hostel seat"
+      ],
+      "answer": "Fill in the hostel application form on the student portal (or get it from the Hostel office) within two weeks of admission. Rooms are allotted on merit and distance from home.",
+      "verified": false
+    },
+    {
+      "id": 36,
+      "category": "Hostels",
+      "question": "Is there a girls' hostel?",
+      "alternatives": [
+        "girls hostel",
+        "hostel for female students"
+      ],
+      "answer": "Yes (sample data): a girls' hostel with a warden, female security staff and fixed in-time is available. Seats are limited, so apply early.",
+      "verified": false
+    },
+    {
+      "id": 37,
+      "category": "Hostels",
+      "question": "What is the hostel in-time?",
+      "alternatives": [
+        "hostel timing",
+        "hostel curfew",
+        "gate closing time hostel"
+      ],
+      "answer": "Sample rules: 9:00 pm for the girls' hostel and 10:30 pm for the boys' hostel. Late entries need the warden's permission.",
+      "verified": false
+    },
+    {
+      "id": 38,
+      "category": "Hostels",
+      "question": "How many students share a room?",
+      "alternatives": [
+        "room sharing",
+        "rooms per student",
+        "triple room"
+      ],
+      "answer": "Sample data: most rooms are shared by three students; a limited number of two-seater rooms go to senior students.",
+      "verified": false
+    },
+    {
+      "id": 39,
+      "category": "Hostels",
+      "question": "Is food available in the hostel?",
+      "alternatives": [
+        "hostel mess",
+        "food in hostel",
+        "mess charges"
+      ],
+      "answer": "Yes. The hostel mess serves breakfast, lunch and dinner. Sample mess bill: around Rs. 9,000–11,000 per month, shared equally among members.",
+      "verified": false
+    },
+    {
+      "id": 40,
+      "category": "Hostels",
+      "question": "Who is the hostel warden?",
+      "alternatives": [
+        "warden contact",
+        "hostel incharge"
+      ],
+      "answer": "Sample information: each hostel has a resident warden from the faculty and a hostel supervisor. Their names and numbers are posted at the hostel reception.",
+      "verified": false
+    },
+    {
+      "id": 41,
+      "category": "Hostels",
+      "question": "Can I bring my own laptop, iron or heater to the hostel?",
+      "alternatives": [
+        "electric appliances in hostel",
+        "heater allowed"
+      ],
+      "answer": "Laptops and irons are allowed. Heaters, cooking stoves and other high-load appliances are not allowed in rooms for safety reasons.",
+      "verified": false
+    },
+    {
+      "id": 42,
+      "category": "Hostels",
+      "question": "Is Wi-Fi available in the hostel?",
+      "alternatives": [
+        "hostel internet",
+        "wifi hostel"
+      ],
+      "answer": "Yes (sample data): campus Wi-Fi covers the hostels. Log in with your student ID; heavy downloads may be throttled at night.",
+      "verified": false
+    },
+    {
+      "id": 43,
+      "category": "Hostels",
+      "question": "Can day scholars stay in the hostel during exams?",
+      "alternatives": [
+        "temporary hostel stay",
+        "guest stay hostel"
+      ],
+      "answer": "Temporary accommodation during exams may be given if rooms are free. Apply to the warden with a fee of the daily rate (sample: Rs. 300 per night).",
+      "verified": false
+    },
+    {
+      "id": 44,
+      "category": "Hostels",
+      "question": "Are visitors allowed in the hostel?",
+      "alternatives": [
+        "guest policy",
+        "parents visit hostel"
+      ],
+      "answer": "Parents and registered guardians may visit in the reception / visitor area during visiting hours. Visitors are not allowed in rooms.",
+      "verified": false
+    },
+    {
+      "id": 45,
+      "category": "Hostels",
+      "question": "What if hostel seats are full?",
+      "alternatives": [
+        "private hostel",
+        "no hostel seat",
+        "nearby accommodation"
+      ],
+      "answer": "Several private hostels operate near campus in Narowal city. The Student Affairs office keeps an informal list, but verify safety and rent yourself.",
+      "verified": false
+    },
+    {
+      "id": 46,
+      "category": "Transport",
+      "question": "Does the university provide transport?",
+      "alternatives": [
+        "university bus",
+        "point service",
+        "bus service"
+      ],
+      "answer": "Yes (sample data): university buses run on fixed routes from Narowal city, Zafarwal, Shakargarh, Pasrur and Sialkot. A semester bus pass is required.",
+      "verified": false
+    },
+    {
+      "id": 47,
+      "category": "Transport",
+      "question": "What are the bus routes?",
+      "alternatives": [
+        "bus route list",
+        "point routes",
+        "which areas bus covers"
+      ],
+      "answer": "Sample routes: Route 1 Narowal city circular; Route 2 Shakargarh; Route 3 Zafarwal; Route 4 Pasrur; Route 5 Sialkot (via Daska road). Exact stops are on the Transport office notice board.",
+      "verified": false
+    },
+    {
+      "id": 48,
+      "category": "Transport",
+      "question": "What time do the buses leave?",
+      "alternatives": [
+        "bus timing",
+        "point timing",
+        "bus departure time"
+      ],
+      "answer": "Sample timings: morning pick-up starts around 6:45–7:30 am depending on the route; return buses leave campus at 2:30 pm and 4:30 pm.",
+      "verified": false
+    },
+    {
+      "id": 49,
+      "category": "Transport",
+      "question": "How do I get a bus pass?",
+      "alternatives": [
+        "bus card",
+        "transport card",
+        "transport registration"
+      ],
+      "answer": "Register on the student portal under Transport, pay the transport challan, then collect your bus card from the Transport office with a copy of your student ID.",
+      "verified": false
+    },
+    {
+      "id": 50,
+      "category": "Transport",
+      "question": "Is there transport from Lahore?",
+      "alternatives": [
+        "Lahore to Narowal bus",
+        "travel from Lahore"
+      ],
+      "answer": "Sample information: there is no daily university bus from Lahore. Students travel by public transport (daewoo/coaster) to Narowal and use the city route from there.",
+      "verified": false
+    },
+    {
+      "id": 51,
+      "category": "Transport",
+      "question": "Is parking available for students?",
+      "alternatives": [
+        "bike parking",
+        "car parking",
+        "motorcycle parking"
+      ],
+      "answer": "Yes. Motorcycle parking is next to the main gate and a small car park is available. Display your vehicle sticker issued by the security office.",
+      "verified": false
+    },
+    {
+      "id": 52,
+      "category": "Transport",
+      "question": "How do I get a vehicle sticker?",
+      "alternatives": [
+        "parking sticker",
+        "vehicle pass"
+      ],
+      "answer": "Apply at the Security office with your student ID, vehicle registration copy and driving licence. Stickers are free (sample policy).",
+      "verified": false
+    },
+    {
+      "id": 53,
+      "category": "Departments",
+      "question": "Which departments are at UET Narowal?",
+      "alternatives": [
+        "list of departments",
+        "programs offered",
+        "which degrees are offered"
+      ],
+      "answer": "Sample list: Electrical Engineering, Computer Engineering, Computer Science, Mechanical Engineering, and Humanities & Basic Sciences (supporting department). Open the Departments section of the app for details.",
+      "verified": false
+    },
+    {
+      "id": 54,
+      "category": "Departments",
+      "question": "Tell me about the Computer Science department.",
+      "alternatives": [
+        "computer science department",
+        "BSc CS",
+        "CS program"
+      ],
+      "answer": "The Department of Computer Science offers a 4-year BSc Computer Science (HEC/NCEAC curriculum) covering programming, data structures, databases, AI, networks and software engineering, with labs for programming and AI. (Sample description.)",
+      "verified": false
+    },
+    {
+      "id": 55,
+      "category": "Departments",
+      "question": "Tell me about the Electrical Engineering department.",
+      "alternatives": [
+        "EE department",
+        "electrical engineering program",
+        "BSc EE"
+      ],
+      "answer": "The Department of Electrical Engineering offers a PEC-accredited 4-year BSc Electrical Engineering with labs for circuits, electronics, power, control and communication. (Sample description.)",
+      "verified": false
+    },
+    {
+      "id": 56,
+      "category": "Departments",
+      "question": "Tell me about the Computer Engineering department.",
+      "alternatives": [
+        "computer engineering",
+        "BSc CE",
+        "CPE department"
+      ],
+      "answer": "The Department of Computer Engineering offers a 4-year BSc Computer Engineering that combines digital design, embedded systems, computer architecture and software. (Sample description.)",
+      "verified": false
+    },
+    {
+      "id": 57,
+      "category": "Departments",
+      "question": "Tell me about the Mechanical Engineering department.",
+      "alternatives": [
+        "mechanical department",
+        "BSc ME",
+        "mechanical engineering"
+      ],
+      "answer": "The Department of Mechanical Engineering offers a 4-year BSc Mechanical Engineering with workshops and labs for thermodynamics, fluid mechanics, machine design and manufacturing. (Sample description.)",
+      "verified": false
+    },
+    {
+      "id": 58,
+      "category": "Departments",
+      "question": "What does the Humanities and Basic Sciences department teach?",
+      "alternatives": [
+        "basic sciences",
+        "humanities department",
+        "maths physics department"
+      ],
+      "answer": "It teaches the shared courses every freshman takes: calculus, linear algebra, applied physics, English, Islamic studies / ethics and Pakistan studies.",
+      "verified": false
+    },
+    {
+      "id": 59,
+      "category": "Departments",
+      "question": "Is the Electrical Engineering degree PEC accredited?",
+      "alternatives": [
+        "PEC accreditation",
+        "is degree accredited",
+        "pakistan engineering council"
+      ],
+      "answer": "Engineering programmes at UET campuses are accredited by the Pakistan Engineering Council (PEC). Check the PEC website for the current accreditation status of each Narowal programme.",
+      "verified": false
+    },
+    {
+      "id": 60,
+      "category": "Departments",
+      "question": "Is the Computer Science degree recognised by HEC?",
+      "alternatives": [
+        "HEC recognition",
+        "NCEAC"
+      ],
+      "answer": "Yes. UET Lahore is an HEC-recognised public university and its campuses award UET Lahore degrees. CS programmes follow the HEC / NCEAC curriculum.",
+      "verified": false
+    },
+    {
+      "id": 61,
+      "category": "Departments",
+      "question": "Who is the chairman of the Computer Science department?",
+      "alternatives": [
+        "HOD CS",
+        "head of department computer science",
+        "chairperson CS"
+      ],
+      "answer": "Sample information: the department is led by a Chairperson / Incharge. The current name is shown on the department page and notice board; the app keeps it as a placeholder until verified.",
+      "verified": false
+    },
+    {
+      "id": 62,
+      "category": "Departments",
+      "question": "Where is the Computer Science department?",
+      "alternatives": [
+        "CS block location",
+        "CS building where"
+      ],
+      "answer": "Sample location: the Academic Block II, ground and first floor. Use the Campus Map tab and search 'Computer Science' for directions.",
+      "verified": false
+    },
+    {
+      "id": 63,
+      "category": "Departments",
+      "question": "Where is the Electrical Engineering department?",
+      "alternatives": [
+        "EE block location",
+        "electrical block"
+      ],
+      "answer": "Sample location: Academic Block I. Search 'Electrical' in the Campus Map tab for directions.",
+      "verified": false
+    },
+    {
+      "id": 64,
+      "category": "Departments",
+      "question": "What labs does the Computer Science department have?",
+      "alternatives": [
+        "CS labs",
+        "computer labs"
+      ],
+      "answer": "Sample list: two programming labs (40 PCs each), a networks lab, and an AI / data science lab with GPU workstations shared for final-year projects.",
+      "verified": false
+    },
+    {
+      "id": 65,
+      "category": "Departments",
+      "question": "What labs does the Electrical department have?",
+      "alternatives": [
+        "EE labs",
+        "electronics lab",
+        "power lab"
+      ],
+      "answer": "Sample list: Basic Electrical, Electronics, Digital Logic, Power & Machines, Control and Communication labs.",
+      "verified": false
+    },
+    {
+      "id": 66,
+      "category": "Departments",
+      "question": "How many credit hours are required for a degree?",
+      "alternatives": [
+        "total credit hours",
+        "credits to graduate"
+      ],
+      "answer": "Typical requirement: about 130–136 credit hours for BSc engineering and about 130 for BSc Computer Science, spread over 8 semesters.",
+      "verified": false
+    },
+    {
+      "id": 67,
+      "category": "Departments",
+      "question": "Can I do a minor in another subject?",
+      "alternatives": [
+        "minor degree",
+        "elective from other department"
+      ],
+      "answer": "Formal minors are not offered (sample information), but you can choose technical electives from related departments with your advisor's approval.",
+      "verified": false
+    },
+    {
+      "id": 68,
+      "category": "Academics & Exams",
+      "question": "What is the grading system?",
+      "alternatives": [
+        "GPA system",
+        "grades",
+        "how is GPA calculated"
+      ],
+      "answer": "UET uses a 4.0 GPA scale. A typical scale: A (85+) = 4.0, A- = 3.7, B+ = 3.3, B = 3.0, B- = 2.7, C+ = 2.3, C = 2.0, D = 1.0, F = 0. Confirm the exact bands in the semester rules.",
+      "verified": false
+    },
+    {
+      "id": 69,
+      "category": "Academics & Exams",
+      "question": "What is the passing CGPA?",
+      "alternatives": [
+        "minimum CGPA",
+        "probation",
+        "academic probation"
+      ],
+      "answer": "You must keep a CGPA of at least 2.0. Below that you are placed on probation; staying below the limit for consecutive semesters can lead to dismissal under semester rules.",
+      "verified": false
+    },
+    {
+      "id": 70,
+      "category": "Academics & Exams",
+      "question": "How many absences are allowed?",
+      "alternatives": [
+        "attendance requirement",
+        "75 percent attendance",
+        "short attendance"
+      ],
+      "answer": "Students need at least 75% attendance in each course to sit the final exam. Below that, you are marked 'short of attendance' and must repeat the course.",
+      "verified": false
+    },
+    {
+      "id": 71,
+      "category": "Academics & Exams",
+      "question": "How is a course grade made up?",
+      "alternatives": [
+        "marks distribution",
+        "sessional marks",
+        "mid and final weight"
+      ],
+      "answer": "A typical split: sessionals (quizzes, assignments, lab) 20–25%, mid-term 25–30%, final exam 50%. Each instructor shares the exact plan in the course outline.",
+      "verified": false
+    },
+    {
+      "id": 72,
+      "category": "Academics & Exams",
+      "question": "When are mid-term exams?",
+      "alternatives": [
+        "mid term date",
+        "midterm schedule"
+      ],
+      "answer": "Mid-terms are normally held in the 8th–9th week of the semester. The exact date sheet is posted on the student portal and notice boards.",
+      "verified": false
+    },
+    {
+      "id": 73,
+      "category": "Academics & Exams",
+      "question": "When are final exams?",
+      "alternatives": [
+        "final exam date",
+        "finals schedule",
+        "date sheet"
+      ],
+      "answer": "Final exams start after the 16th week of teaching. The date sheet comes out about two weeks before.",
+      "verified": false
+    },
+    {
+      "id": 74,
+      "category": "Academics & Exams",
+      "question": "What if I fail a course?",
+      "alternatives": [
+        "failed subject",
+        "repeat course",
+        "F grade"
+      ],
+      "answer": "You repeat the course when it is offered next (often in the summer semester). The new grade replaces the F in your CGPA, but the transcript shows the course was repeated.",
+      "verified": false
+    },
+    {
+      "id": 75,
+      "category": "Academics & Exams",
+      "question": "Is there a summer semester?",
+      "alternatives": [
+        "summer session",
+        "summer courses"
+      ],
+      "answer": "Yes (sample information): a short summer semester is offered for repeat / improvement courses when enough students register.",
+      "verified": false
+    },
+    {
+      "id": 76,
+      "category": "Academics & Exams",
+      "question": "Can I improve my grade?",
+      "alternatives": [
+        "grade improvement",
+        "improve GPA"
+      ],
+      "answer": "Courses with a grade below the improvement limit (often C or lower) can be repeated once for improvement. The better grade counts.",
+      "verified": false
+    },
+    {
+      "id": 77,
+      "category": "Academics & Exams",
+      "question": "How do I get my transcript?",
+      "alternatives": [
+        "transcript request",
+        "result card",
+        "DMC"
+      ],
+      "answer": "Apply at the Examinations office (or the UET Lahore exams portal) with the fee challan. Sample processing time: 7 working days, or 2 days on urgent fee.",
+      "verified": false
+    },
+    {
+      "id": 78,
+      "category": "Academics & Exams",
+      "question": "How do I apply for exam rechecking?",
+      "alternatives": [
+        "rechecking",
+        "paper recheck",
+        "result re-evaluation"
+      ],
+      "answer": "Submit a rechecking application to the Controller of Examinations within 7 days of the result with the fee challan. Rechecking verifies totals and unmarked questions.",
+      "verified": false
+    },
+    {
+      "id": 79,
+      "category": "Academics & Exams",
+      "question": "What is the academic calendar?",
+      "alternatives": [
+        "semester calendar",
+        "academic schedule",
+        "term dates"
+      ],
+      "answer": "Sample calendar: Fall semester from October to February, Spring semester from March to July, optional Summer in July–August. The official calendar is on the university website.",
+      "verified": false
+    },
+    {
+      "id": 80,
+      "category": "Academics & Exams",
+      "question": "Who is my academic advisor?",
+      "alternatives": [
+        "advisor",
+        "faculty advisor",
+        "mentor"
+      ],
+      "answer": "Every student is assigned a faculty advisor at the start of the first semester. The list is posted by your department; ask your class representative (CR) if you missed it.",
+      "verified": false
+    },
+    {
+      "id": 81,
+      "category": "Academics & Exams",
+      "question": "How do I register for courses?",
+      "alternatives": [
+        "course registration",
+        "enroll courses",
+        "add courses"
+      ],
+      "answer": "Course registration is done on the student portal before each semester. First-semester courses are registered automatically for freshers.",
+      "verified": false
+    },
+    {
+      "id": 82,
+      "category": "Academics & Exams",
+      "question": "Can I drop a course?",
+      "alternatives": [
+        "course withdrawal",
+        "drop subject"
+      ],
+      "answer": "Courses can be withdrawn before the deadline in the academic calendar (usually week 10). You get a W grade, which does not affect your GPA.",
+      "verified": false
+    },
+    {
+      "id": 83,
+      "category": "Academics & Exams",
+      "question": "What is the final year project (FYP)?",
+      "alternatives": [
+        "FYP",
+        "final year project",
+        "capstone"
+      ],
+      "answer": "In the last two semesters you complete a final-year project in a group of 2–4 students under a faculty supervisor, with proposal, mid and final evaluations.",
+      "verified": false
+    },
+    {
+      "id": 84,
+      "category": "Academics & Exams",
+      "question": "Is an internship compulsory?",
+      "alternatives": [
+        "internship requirement",
+        "summer internship"
+      ],
+      "answer": "For engineering programmes a 6–8 week industrial internship after the 6th semester is part of the PEC requirement. The department's internship coordinator helps with placement letters.",
+      "verified": false
+    },
+    {
+      "id": 85,
+      "category": "Academics & Exams",
+      "question": "What happens if I miss an exam due to illness?",
+      "alternatives": [
+        "missed exam",
+        "medical exam",
+        "makeup exam"
+      ],
+      "answer": "Submit a medical certificate from a government hospital to your department within three days. If approved, you sit a special exam or get an 'I' (incomplete) grade.",
+      "verified": false
+    },
+    {
+      "id": 86,
+      "category": "Academics & Exams",
+      "question": "Are class timings fixed?",
+      "alternatives": [
+        "class timings",
+        "university timings",
+        "start time"
+      ],
+      "answer": "Sample timings: classes run from 8:30 am to 3:30 pm, Monday to Friday, with a break at 12:30–1:30 pm (longer on Fridays for prayers).",
+      "verified": false
+    },
+    {
+      "id": 87,
+      "category": "Academics & Exams",
+      "question": "Is there a dress code?",
+      "alternatives": [
+        "dress code",
+        "uniform"
+      ],
+      "answer": "There is no uniform. Students are expected to dress decently; lab coats and closed shoes are required in labs and workshops.",
+      "verified": false
+    },
+    {
+      "id": 88,
+      "category": "Academics & Exams",
+      "question": "What is the policy on cheating?",
+      "alternatives": [
+        "unfair means",
+        "plagiarism",
+        "copying in exam"
+      ],
+      "answer": "Use of unfair means in exams or plagiarism in assignments is handled by the disciplinary committee and can lead to a zero, an F grade or suspension.",
+      "verified": false
+    },
+    {
+      "id": 89,
+      "category": "Freshers",
+      "question": "What should I do on my first day?",
+      "alternatives": [
+        "first day",
+        "orientation",
+        "new student guide"
+      ],
+      "answer": "Attend the orientation session in the auditorium, collect your student ID card, find your department and timetable, and join your class WhatsApp/CR group. The app's Campus Map helps you find buildings.",
+      "verified": false
+    },
+    {
+      "id": 90,
+      "category": "Freshers",
+      "question": "When is orientation week?",
+      "alternatives": [
+        "orientation date",
+        "welcome week"
+      ],
+      "answer": "Sample schedule: orientation is held in the first week of classes. Departments introduce faculty, rules, labs and societies.",
+      "verified": false
+    },
+    {
+      "id": 91,
+      "category": "Freshers",
+      "question": "How do I get my student ID card?",
+      "alternatives": [
+        "ID card",
+        "student card",
+        "university card"
+      ],
+      "answer": "Student ID cards are issued by the Student Affairs office in the first weeks. Bring a photo and your fee receipt. A lost card can be replaced for a fee (sample: Rs. 500).",
+      "verified": false
+    },
+    {
+      "id": 92,
+      "category": "Freshers",
+      "question": "What is the class representative (CR)?",
+      "alternatives": [
+        "CR",
+        "class rep",
+        "who is CR"
+      ],
+      "answer": "Each section chooses a class representative (CR) and a girls' representative (GR) who communicate between students, faculty and the department.",
+      "verified": false
+    },
+    {
+      "id": 93,
+      "category": "Freshers",
+      "question": "How do I find my timetable?",
+      "alternatives": [
+        "timetable",
+        "class schedule"
+      ],
+      "answer": "Timetables are posted on the student portal and on department notice boards in the first week. Your CR shares updates in the class group.",
+      "verified": false
+    },
+    {
+      "id": 94,
+      "category": "Freshers",
+      "question": "Is ragging allowed?",
+      "alternatives": [
+        "ragging",
+        "bullying",
+        "harassment by seniors"
+      ],
+      "answer": "No. Ragging and harassment are strictly prohibited. Report any incident to the Student Affairs office, the proctor or the anti-harassment committee.",
+      "verified": false
+    },
+    {
+      "id": 95,
+      "category": "Freshers",
+      "question": "What should I bring as a fresher?",
+      "alternatives": [
+        "things to bring",
+        "fresher checklist"
+      ],
+      "answer": "Bring your original documents and photocopies, a laptop if possible, a scientific calculator, lab coat for labs, and stationery. Hostel students should also bring bedding.",
+      "verified": false
+    },
+    {
+      "id": 96,
+      "category": "Freshers",
+      "question": "Do I need a laptop?",
+      "alternatives": [
+        "laptop required",
+        "should I buy laptop"
+      ],
+      "answer": "A laptop is strongly recommended, especially for Computer Science and Computer Engineering. Labs are available if you do not have one.",
+      "verified": false
+    },
+    {
+      "id": 97,
+      "category": "Freshers",
+      "question": "How do I join a society?",
+      "alternatives": [
+        "join club",
+        "society membership",
+        "student societies"
+      ],
+      "answer": "Societies hold recruitment drives in the first month. Visit their stalls at the society fair or contact them on social media. You can join more than one.",
+      "verified": false
+    },
+    {
+      "id": 98,
+      "category": "Campus Facilities",
+      "question": "Where is the library?",
+      "alternatives": [
+        "library location",
+        "find library"
+      ],
+      "answer": "Sample location: the Central Library is next to the Admin Block. Search 'Library' in the Campus Map tab for directions.",
+      "verified": false
+    },
+    {
+      "id": 99,
+      "category": "Campus Facilities",
+      "question": "What are the library timings?",
+      "alternatives": [
+        "library hours",
+        "library opening time"
+      ],
+      "answer": "Sample timings: 8:00 am to 6:00 pm on weekdays, extended to 8:00 pm during exams.",
+      "verified": false
+    },
+    {
+      "id": 100,
+      "category": "Campus Facilities",
+      "question": "How many books can I borrow?",
+      "alternatives": [
+        "library borrowing",
+        "issue books",
+        "book loan"
+      ],
+      "answer": "Sample policy: 3 books for 14 days. Late returns are fined Rs. 10 per book per day.",
+      "verified": false
+    },
+    {
+      "id": 101,
+      "category": "Campus Facilities",
+      "question": "Does the library have digital resources?",
+      "alternatives": [
+        "HEC digital library",
+        "e-books",
+        "IEEE access"
+      ],
+      "answer": "Yes. Through the HEC National Digital Library you can access IEEE, Springer, ScienceDirect and other databases from the campus network.",
+      "verified": false
+    },
+    {
+      "id": 102,
+      "category": "Campus Facilities",
+      "question": "Is there a cafeteria on campus?",
+      "alternatives": [
+        "cafe",
+        "canteen",
+        "food on campus"
+      ],
+      "answer": "Yes (sample data): the main cafeteria near the sports ground serves tea, snacks and lunch from 8 am to 5 pm.",
+      "verified": false
+    },
+    {
+      "id": 103,
+      "category": "Campus Facilities",
+      "question": "Is there a mosque on campus?",
+      "alternatives": [
+        "prayer area",
+        "masjid",
+        "namaz place"
+      ],
+      "answer": "Yes. The campus mosque is near the hostels, and prayer areas for female students are available in the academic blocks.",
+      "verified": false
+    },
+    {
+      "id": 104,
+      "category": "Campus Facilities",
+      "question": "Is there a medical centre?",
+      "alternatives": [
+        "dispensary",
+        "first aid",
+        "doctor on campus"
+      ],
+      "answer": "A medical centre / dispensary provides first aid and basic treatment during office hours. For emergencies, students are taken to DHQ Hospital Narowal.",
+      "verified": false
+    },
+    {
+      "id": 105,
+      "category": "Campus Facilities",
+      "question": "What sports facilities are available?",
+      "alternatives": [
+        "sports",
+        "cricket ground",
+        "gym"
+      ],
+      "answer": "Sample list: cricket and football ground, volleyball and basketball courts, table tennis and a small gym. Inter-department tournaments are held every year.",
+      "verified": false
+    },
+    {
+      "id": 106,
+      "category": "Campus Facilities",
+      "question": "Is Wi-Fi available on campus?",
+      "alternatives": [
+        "campus internet",
+        "wifi password",
+        "eduroam"
+      ],
+      "answer": "Yes. Campus Wi-Fi covers the academic blocks and library. Log in with your student credentials issued by the IT office.",
+      "verified": false
+    },
+    {
+      "id": 107,
+      "category": "Campus Facilities",
+      "question": "Is there a photocopy shop on campus?",
+      "alternatives": [
+        "photocopy",
+        "printing",
+        "stationery shop"
+      ],
+      "answer": "Yes (sample data): a photocopy and stationery shop is near the cafeteria. Printing is also available in the library at a small charge.",
+      "verified": false
+    },
+    {
+      "id": 108,
+      "category": "Campus Facilities",
+      "question": "Is there a bank or ATM on campus?",
+      "alternatives": [
+        "ATM",
+        "bank branch"
+      ],
+      "answer": "Sample information: a bank booth with an ATM is near the Admin Block, where fee challans can also be paid.",
+      "verified": false
+    },
+    {
+      "id": 109,
+      "category": "Campus Facilities",
+      "question": "Is there an auditorium?",
+      "alternatives": [
+        "auditorium",
+        "seminar hall"
+      ],
+      "answer": "Yes (sample data): the auditorium seats about 300 and is used for orientation, seminars and society events.",
+      "verified": false
+    },
+    {
+      "id": 110,
+      "category": "IT & Portal",
+      "question": "How do I log in to the student portal?",
+      "alternatives": [
+        "student portal login",
+        "LMS login",
+        "portal password"
+      ],
+      "answer": "Use your registration number and the password sent by the IT office at admission. If you cannot log in, visit the IT office with your ID card for a reset.",
+      "verified": false
+    },
+    {
+      "id": 111,
+      "category": "IT & Portal",
+      "question": "I forgot my portal password.",
+      "alternatives": [
+        "reset password",
+        "forgot password"
+      ],
+      "answer": "Use 'Forgot password' on the portal login page, or visit the IT office with your student ID card to reset it.",
+      "verified": false
+    },
+    {
+      "id": 112,
+      "category": "IT & Portal",
+      "question": "Do students get a university email?",
+      "alternatives": [
+        "student email",
+        "official email"
+      ],
+      "answer": "Sample policy: each student receives an official email (for example 2026-cs-01@student.uet.edu.pk). It is used for portal notices and can unlock education software discounts.",
+      "verified": false
+    },
+    {
+      "id": 113,
+      "category": "IT & Portal",
+      "question": "Where do I find course material?",
+      "alternatives": [
+        "lecture slides",
+        "LMS",
+        "google classroom"
+      ],
+      "answer": "Instructors share material on the learning management system or Google Classroom. Your CR shares class codes in the first week.",
+      "verified": false
+    },
+    {
+      "id": 114,
+      "category": "IT & Portal",
+      "question": "Can I get free software like MATLAB or Microsoft Office?",
+      "alternatives": [
+        "software license",
+        "MATLAB license",
+        "office 365"
+      ],
+      "answer": "Sample information: campus licences for MATLAB and Microsoft 365 may be available through your university email. Ask the IT office.",
+      "verified": false
+    },
+    {
+      "id": 115,
+      "category": "Events & Societies",
+      "question": "What societies are there?",
+      "alternatives": [
+        "clubs list",
+        "student societies list"
+      ],
+      "answer": "Sample list: IEEE Student Branch, ACM / Computing Society, Robotics Club, Debating Society, Literary & Dramatics Society, Sports Society, Blood Donors Society and Community Service Society.",
+      "verified": false
+    },
+    {
+      "id": 116,
+      "category": "Events & Societies",
+      "question": "Are there any upcoming events?",
+      "alternatives": [
+        "events",
+        "what is happening on campus",
+        "upcoming activities"
+      ],
+      "answer": "Sample events: Fresher Welcome (October), Tech Fest & Project Exhibition (spring), Sports Gala (February), Job Fair (May). Check the Events card on the Home screen for dates.",
+      "verified": false
+    },
+    {
+      "id": 117,
+      "category": "Events & Societies",
+      "question": "When is the fresher welcome party?",
+      "alternatives": [
+        "welcome party",
+        "fresher party"
+      ],
+      "answer": "Sample schedule: the fresher welcome is usually held in late October, organised by the senior batch with the Student Affairs office.",
+      "verified": false
+    },
+    {
+      "id": 118,
+      "category": "Events & Societies",
+      "question": "Is there a job fair?",
+      "alternatives": [
+        "career fair",
+        "jobs",
+        "recruitment drive"
+      ],
+      "answer": "Yes (sample data): a job fair with local and Lahore-based companies is held every spring. The Career Development / Placement office announces it on the portal.",
+      "verified": false
+    },
+    {
+      "id": 119,
+      "category": "Events & Societies",
+      "question": "Are there hackathons or programming competitions?",
+      "alternatives": [
+        "coding competition",
+        "hackathon",
+        "speed programming"
+      ],
+      "answer": "The Computing Society organises speed-programming contests and hackathons, and supports teams for national events like ICPC regionals and ACM / NUST / FAST competitions.",
+      "verified": false
+    },
+    {
+      "id": 120,
+      "category": "Events & Societies",
+      "question": "Is there a Tech Fest?",
+      "alternatives": [
+        "tech fest",
+        "project exhibition",
+        "open house"
+      ],
+      "answer": "Yes (sample data): the annual Tech Fest in spring includes a final-year project exhibition, robotics competitions and gaming events.",
+      "verified": false
+    },
+    {
+      "id": 121,
+      "category": "Events & Societies",
+      "question": "How do I start a new society?",
+      "alternatives": [
+        "new club",
+        "create society"
+      ],
+      "answer": "Submit a proposal with a faculty patron, objectives and at least 20 members to the Student Affairs office for approval.",
+      "verified": false
+    },
+    {
+      "id": 122,
+      "category": "Events & Societies",
+      "question": "Is there a convocation?",
+      "alternatives": [
+        "convocation",
+        "graduation ceremony",
+        "degree ceremony"
+      ],
+      "answer": "Graduates receive UET Lahore degrees. Convocations are held by UET Lahore; sample information: Narowal graduates may attend the main convocation in Lahore.",
+      "verified": false
+    },
+    {
+      "id": 123,
+      "category": "Admin & Contacts",
+      "question": "Where is the admin block?",
+      "alternatives": [
+        "administration office",
+        "admin building"
+      ],
+      "answer": "Sample location: the Admin Block is right after the main gate. It houses the campus director's office, accounts, admissions and the Registrar's representative.",
+      "verified": false
+    },
+    {
+      "id": 124,
+      "category": "Admin & Contacts",
+      "question": "Who is the campus director?",
+      "alternatives": [
+        "director",
+        "campus head",
+        "principal"
+      ],
+      "answer": "Sample information: the campus is headed by a Director / Campus Coordinator appointed by UET Lahore. The current name is on the official website; the app keeps it as a placeholder.",
+      "verified": false
+    },
+    {
+      "id": 125,
+      "category": "Admin & Contacts",
+      "question": "What is the university's phone number?",
+      "alternatives": [
+        "contact number",
+        "phone",
+        "helpline"
+      ],
+      "answer": "Sample contact: (+92) 542-000000 (placeholder). Please use the number on the official UET Lahore Narowal campus website.",
+      "verified": false
+    },
+    {
+      "id": 126,
+      "category": "Admin & Contacts",
+      "question": "What is the official website?",
+      "alternatives": [
+        "website",
+        "uet website",
+        "url"
+      ],
+      "answer": "The UET Lahore website is uet.edu.pk; campus news and notices for Narowal are published there and on the campus social media pages.",
+      "verified": false
+    },
+    {
+      "id": 127,
+      "category": "Admin & Contacts",
+      "question": "Where is UET Narowal located?",
+      "alternatives": [
+        "campus address",
+        "location of campus",
+        "how to reach campus"
+      ],
+      "answer": "UET Lahore Narowal Campus is in Narowal, Punjab. Sample directions: on the main road out of Narowal city, a short drive from the city centre. Open the Campus Map tab for the map.",
+      "verified": false
+    },
+    {
+      "id": 128,
+      "category": "Admin & Contacts",
+      "question": "What are office timings?",
+      "alternatives": [
+        "admin office timing",
+        "office hours"
+      ],
+      "answer": "Sample timings: offices are open 8:30 am to 4:00 pm Monday to Thursday and 8:30 am to 12:30 pm on Friday.",
+      "verified": false
+    },
+    {
+      "id": 129,
+      "category": "Admin & Contacts",
+      "question": "How do I get a character certificate?",
+      "alternatives": [
+        "character certificate",
+        "bonafide certificate",
+        "student certificate"
+      ],
+      "answer": "Apply at the Student Affairs office with your student ID and fee challan. Sample processing time: 3 working days.",
+      "verified": false
+    },
+    {
+      "id": 130,
+      "category": "Admin & Contacts",
+      "question": "How do I get my degree?",
+      "alternatives": [
+        "degree issuance",
+        "degree apply"
+      ],
+      "answer": "After clearing all courses and dues, apply for the degree on the UET Lahore examinations portal with the clearance form. Sample processing time: about 2–3 months, faster with urgent fee.",
+      "verified": false
+    },
+    {
+      "id": 131,
+      "category": "Admin & Contacts",
+      "question": "How do I get a clearance certificate?",
+      "alternatives": [
+        "clearance form",
+        "no dues"
+      ],
+      "answer": "Get the clearance form from the portal, collect signatures from the library, hostel, transport, accounts and your department, then submit it to the Admin office.",
+      "verified": false
+    },
+    {
+      "id": 132,
+      "category": "Admin & Contacts",
+      "question": "How do I report harassment?",
+      "alternatives": [
+        "harassment complaint",
+        "anti harassment committee",
+        "complaint"
+      ],
+      "answer": "Contact the campus anti-harassment committee (a female faculty member is always a member) or the Student Affairs office. Complaints are confidential. You can also use the HEC complaint portal.",
+      "verified": false
+    },
+    {
+      "id": 133,
+      "category": "Admin & Contacts",
+      "question": "Where is lost and found?",
+      "alternatives": [
+        "lost and found",
+        "lost item",
+        "lost my ID"
+      ],
+      "answer": "Check with the Security office at the main gate, where found items are kept for 30 days.",
+      "verified": false
+    },
+    {
+      "id": 134,
+      "category": "Admin & Contacts",
+      "question": "How do I contact the examinations office?",
+      "alternatives": [
+        "exam office contact",
+        "controller of exams"
+      ],
+      "answer": "The campus Examinations office is in the Admin Block (sample). For degrees and transcripts, the UET Lahore Controller of Examinations handles final processing.",
+      "verified": false
+    },
+    {
+      "id": 135,
+      "category": "Campus Life",
+      "question": "What is there to do in Narowal?",
+      "alternatives": [
+        "Narowal city",
+        "places to visit Narowal"
+      ],
+      "answer": "Narowal is a calm district city. Students visit the Kartarpur Corridor (Gurdwara Darbar Sahib, about 30 km away), local food streets in the city and the Ravi river area on weekends.",
+      "verified": false
+    },
+    {
+      "id": 136,
+      "category": "Campus Life",
+      "question": "How far is Kartarpur from campus?",
+      "alternatives": [
+        "Kartarpur",
+        "Gurdwara Darbar Sahib distance"
+      ],
+      "answer": "Kartarpur (Gurdwara Darbar Sahib) is roughly 30–35 km from Narowal city, about 45 minutes by road.",
+      "verified": false
+    },
+    {
+      "id": 137,
+      "category": "Campus Life",
+      "question": "Is the campus safe?",
+      "alternatives": [
+        "security on campus",
+        "campus security"
+      ],
+      "answer": "The campus has a boundary wall, security guards at the gates, ID checks and CCTV in key areas (sample data). Report any concern to the Security office.",
+      "verified": false
+    },
+    {
+      "id": 138,
+      "category": "Campus Life",
+      "question": "Can I work part-time while studying?",
+      "alternatives": [
+        "part time job",
+        "freelancing"
+      ],
+      "answer": "Many students freelance or tutor. On-campus paid positions (lab assistant, library helper) are sometimes advertised by Student Affairs.",
+      "verified": false
+    },
+    {
+      "id": 139,
+      "category": "Campus Life",
+      "question": "Is there a counselling service?",
+      "alternatives": [
+        "counselling",
+        "mental health",
+        "student counsellor"
+      ],
+      "answer": "Sample information: a student counsellor / faculty advisor programme is available through Student Affairs. In crisis, contact Umang helpline 0311-7786264 (Pakistan).",
+      "verified": false
+    },
+    {
+      "id": 140,
+      "category": "Campus Life",
+      "question": "Are there water coolers and washrooms in every block?",
+      "alternatives": [
+        "drinking water",
+        "washroom"
+      ],
+      "answer": "Yes, each academic block has filtered water coolers and separate washrooms for male and female students.",
+      "verified": false
+    },
+    {
+      "id": 141,
+      "category": "Campus Life",
+      "question": "Is smoking allowed on campus?",
+      "alternatives": [
+        "smoking policy",
+        "no smoking"
+      ],
+      "answer": "No. The campus is a no-smoking zone.",
+      "verified": false
+    },
+    {
+      "id": 142,
+      "category": "Campus Life",
+      "question": "Can I bring guests to campus?",
+      "alternatives": [
+        "guest entry",
+        "visitor pass"
+      ],
+      "answer": "Guests need a visitor pass from the Security office at the main gate and must show a CNIC.",
+      "verified": false
+    },
+    {
+      "id": 143,
+      "category": "Campus Life",
+      "question": "Is there a bookshop near campus?",
+      "alternatives": [
+        "buy books",
+        "textbooks shop"
+      ],
+      "answer": "Sample information: a few bookshops in Narowal city sell engineering textbooks and past papers. Seniors also sell used books at the start of each semester.",
+      "verified": false
+    },
+    {
+      "id": 144,
+      "category": "Campus Life",
+      "question": "Where can I eat outside campus?",
+      "alternatives": [
+        "restaurants near campus",
+        "food outside"
+      ],
+      "answer": "Narowal city has dhabas, fast-food outlets and bakeries within a short ride of campus. The cafeteria is the cheapest option during class hours.",
+      "verified": false
+    },
+    {
+      "id": 145,
+      "category": "Academics & Exams",
+      "question": "Where can I find past papers?",
+      "alternatives": [
+        "past papers",
+        "previous exams",
+        "old papers"
+      ],
+      "answer": "Seniors, society drives and the library usually keep past papers. Some instructors also share sample papers on the class LMS.",
+      "verified": false
+    },
+    {
+      "id": 146,
+      "category": "Academics & Exams",
+      "question": "What is the semester system?",
+      "alternatives": [
+        "semester rules",
+        "how many semesters"
+      ],
+      "answer": "UET follows a semester system: a 4-year BSc has 8 regular semesters of about 16 teaching weeks each, plus exams.",
+      "verified": false
+    },
+    {
+      "id": 147,
+      "category": "Academics & Exams",
+      "question": "Is there a project or thesis for CS students?",
+      "alternatives": [
+        "CS final project",
+        "computer science FYP"
+      ],
+      "answer": "Yes. BSc Computer Science students complete a two-semester final-year project in groups, usually building and documenting a software system.",
+      "verified": false
+    },
+    {
+      "id": 148,
+      "category": "Academics & Exams",
+      "question": "Can I take extra courses in a semester?",
+      "alternatives": [
+        "overload",
+        "extra credit hours",
+        "maximum credit hours"
+      ],
+      "answer": "Sample policy: the normal load is 15–18 credit hours; students with a CGPA above 3.0 may request up to 21 with the advisor's approval.",
+      "verified": false
+    },
+    {
+      "id": 149,
+      "category": "Hostels",
+      "question": "Is there a laundry service in the hostel?",
+      "alternatives": [
+        "laundry",
+        "washing clothes hostel"
+      ],
+      "answer": "Sample information: a dhobi (laundry) service visits the hostels twice a week at fixed rates; students may also use the shared washing area.",
+      "verified": false
+    },
+    {
+      "id": 150,
+      "category": "Hostels",
+      "question": "Is electricity backup available in hostels?",
+      "alternatives": [
+        "load shedding hostel",
+        "generator",
+        "UPS hostel"
+      ],
+      "answer": "Sample information: hostels have generator backup for lights and fans during load shedding. Personal UPS units are allowed.",
+      "verified": false
+    },
+    {
+      "id": 151,
+      "category": "Fees & Scholarships",
+      "question": "Is there a laptop scheme for students?",
+      "alternatives": [
+        "free laptop",
+        "PM laptop scheme"
+      ],
+      "answer": "When the government announces the Prime Minister's / Chief Minister's laptop scheme, eligible students apply online and merit lists are shown by the university. There is no fixed yearly scheme.",
+      "verified": false
+    },
+    {
+      "id": 152,
+      "category": "Fees & Scholarships",
+      "question": "Are there scholarships for girls?",
+      "alternatives": [
+        "female scholarship",
+        "scholarship for women"
+      ],
+      "answer": "Need-based schemes such as Ehsaas and PEEF are open to all students, and some calls (for example from USAID or provincial programmes) give special quotas to female students. Ask the Financial Aid office for current calls.",
+      "verified": false
+    },
+    {
+      "id": 153,
+      "category": "Transport",
+      "question": "Do buses run on Saturdays?",
+      "alternatives": [
+        "weekend bus",
+        "saturday transport"
+      ],
+      "answer": "Sample information: no. Buses run Monday to Friday only, except for special arrangements during exams or events.",
+      "verified": false
+    },
+    {
+      "id": 154,
+      "category": "Transport",
+      "question": "What if I miss the university bus?",
+      "alternatives": [
+        "missed bus",
+        "missed point"
+      ],
+      "answer": "Use public transport (rickshaw / wagon) from Narowal city. The university bus does not wait beyond the scheduled time.",
+      "verified": false
+    },
+    {
+      "id": 155,
+      "category": "About the assistant",
+      "question": "What can you help me with?",
+      "alternatives": [
+        "help",
+        "what can you do",
+        "who are you"
+      ],
+      "answer": "I am the UET Narowal Smart Assistant. Ask me about admissions, fees, scholarships, hostels, transport, departments, exams, campus facilities and events. Try the suggested questions below the chat.",
+      "verified": false
+    },
+    {
+      "id": 156,
+      "category": "About the assistant",
+      "question": "Is this the official university app?",
+      "alternatives": [
+        "official app",
+        "is this information correct"
+      ],
+      "answer": "No. This is a student project. Answers come from a curated FAQ list, some of which is sample data. Always confirm important details with the university offices.",
+      "verified": false
+    },
+    {
+      "id": 157,
+      "category": "About the assistant",
+      "question": "Hello",
+      "alternatives": [
+        "hi",
+        "assalam o alaikum",
+        "salam",
+        "good morning",
+        "hey"
+      ],
+      "answer": "Wa alaikum assalam! Ask me anything about UET Narowal: admissions, fees, hostels, transport, departments or exams.",
+      "verified": false
+    },
+    {
+      "id": 158,
+      "category": "About the assistant",
+      "question": "Thank you",
+      "alternatives": [
+        "thanks",
+        "jazakallah",
+        "shukriya",
+        "thank u"
+      ],
+      "answer": "You're welcome! Good luck with your studies.",
+      "verified": false
+    }
+  ]
+}

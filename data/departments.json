@@ -1,0 +1,80 @@
+{
+  "_note": "SAMPLE DATA. Programme names follow common UET offerings; seats, labs, chairperson names and contacts are placeholders to be verified.",
+  "departments": [
+    {
+      "id": "cs",
+      "name": "Computer Science",
+      "short": "CS",
+      "degree": "BSc Computer Science (4 years, 8 semesters)",
+      "building": "block2",
+      "seats": 50,
+      "accreditation": "HEC / NCEAC curriculum",
+      "chair": "Chairperson (name to be added)",
+      "email": "cs.narowal@example.edu.pk",
+      "about": "Programming, algorithms, databases, artificial intelligence, networks and software engineering, with a strong final-year project culture.",
+      "highlights": ["Programming Fundamentals and OOP in first year", "AI, Machine Learning and Data Science electives", "Two-semester final-year project", "Speed-programming and hackathon teams"],
+      "labs": ["Programming Lab I (40 PCs)", "Programming Lab II (40 PCs)", "Networks Lab", "AI & Data Science Lab"],
+      "careers": ["Software engineer", "Data scientist / ML engineer", "Web & mobile developer", "Graduate studies"]
+    },
+    {
+      "id": "ee",
+      "name": "Electrical Engineering",
+      "short": "EE",
+      "degree": "BSc Electrical Engineering (4 years, PEC)",
+      "building": "block1",
+      "seats": 60,
+      "accreditation": "Pakistan Engineering Council (PEC)",
+      "chair": "Chairperson (name to be added)",
+      "email": "ee.narowal@example.edu.pk",
+      "about": "Circuits, electronics, power systems, control and communication, with a 6-8 week industrial internship.",
+      "highlights": ["Power and electronics specialisation tracks", "Industrial internship after 6th semester", "IEEE student branch", "Final-year design project"],
+      "labs": ["Basic Electrical Lab", "Electronics Lab", "Digital Logic Lab", "Power & Machines Lab", "Control Lab", "Communication Lab"],
+      "careers": ["Power utilities (WAPDA, IESCO, LESCO)", "Telecom", "Electronics & embedded industry", "Renewable energy"]
+    },
+    {
+      "id": "ce",
+      "name": "Computer Engineering",
+      "short": "CE",
+      "degree": "BSc Computer Engineering (4 years, PEC)",
+      "building": "block2",
+      "seats": 50,
+      "accreditation": "Pakistan Engineering Council (PEC)",
+      "chair": "Chairperson (name to be added)",
+      "email": "ce.narowal@example.edu.pk",
+      "about": "Where hardware meets software: digital design, microprocessors, embedded systems, computer architecture and programming.",
+      "highlights": ["FPGA and embedded systems projects", "Computer architecture and OS", "IoT and robotics club", "Industrial internship"],
+      "labs": ["Digital Systems Lab", "Microprocessor & Embedded Lab", "Computer Networks Lab"],
+      "careers": ["Embedded / firmware engineer", "Hardware design", "Software engineer", "IoT developer"]
+    },
+    {
+      "id": "me",
+      "name": "Mechanical Engineering",
+      "short": "ME",
+      "degree": "BSc Mechanical Engineering (4 years, PEC)",
+      "building": "block3",
+      "seats": 50,
+      "accreditation": "Pakistan Engineering Council (PEC)",
+      "chair": "Chairperson (name to be added)",
+      "email": "me.narowal@example.edu.pk",
+      "about": "Thermodynamics, fluid mechanics, machine design and manufacturing, with hands-on workshop training.",
+      "highlights": ["Workshop practice from first year", "CAD / CAM training", "Formula-style and robotics competitions", "Industrial internship"],
+      "labs": ["Workshop", "Thermodynamics Lab", "Fluid Mechanics Lab", "Mechanics of Materials Lab", "CAD Lab"],
+      "careers": ["Manufacturing & automotive", "HVAC and energy", "Design engineer", "Process industry"]
+    },
+    {
+      "id": "hbs",
+      "name": "Humanities & Basic Sciences",
+      "short": "HBS",
+      "degree": "Supporting department (no standalone degree)",
+      "building": "sciences",
+      "seats": 0,
+      "accreditation": "Teaches the shared first-year courses",
+      "chair": "Incharge (name to be added)",
+      "email": "hbs.narowal@example.edu.pk",
+      "about": "Calculus, linear algebra, differential equations, applied physics, communication skills, Islamic studies / ethics and Pakistan studies for all programmes.",
+      "highlights": ["Bridging maths support for freshers", "Communication & presentation skills", "Physics labs"],
+      "labs": ["Applied Physics Lab", "Language Lab"],
+      "careers": []
+    }
+  ]
+}

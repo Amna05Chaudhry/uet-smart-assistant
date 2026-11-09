@@ -1,0 +1,40 @@
+{
+  "_note": "PLACEHOLDER COORDINATES. The campus centre and every building position below are approximate, laid out around Narowal for the demo. Amna: open the campus in Google Maps / OpenStreetMap, right-click each building to copy its lat/lng, and replace the values here (and the path nodes). Building names are sample data too.",
+  "center": [32.0905, 74.8545],
+  "zoom": 17.2,
+  "buildings": [
+    {"id": "gate", "name": "Main Gate", "category": "Entrance", "icon": "gate", "lat": 32.0890, "lng": 74.8530, "description": "Main entrance on the city road. Security office, visitor passes and lost & found."},
+    {"id": "admin", "name": "Admin Block", "category": "Administration", "icon": "admin", "lat": 32.0896, "lng": 74.8538, "description": "Campus director, admissions, accounts / treasurer and examinations office."},
+    {"id": "library", "name": "Central Library", "category": "Facilities", "icon": "library", "lat": 32.0901, "lng": 74.8532, "description": "Books, reading hall and HEC Digital Library access. 8 am - 6 pm."},
+    {"id": "block1", "name": "Academic Block I (Electrical Engineering)", "category": "Academic", "icon": "academic", "lat": 32.0905, "lng": 74.8545, "description": "Department of Electrical Engineering classrooms and labs."},
+    {"id": "block2", "name": "Academic Block II (Computer Science & Computer Engineering)", "category": "Academic", "icon": "academic", "lat": 32.0910, "lng": 74.8537, "description": "Departments of Computer Science and Computer Engineering, programming and AI labs."},
+    {"id": "block3", "name": "Academic Block III (Mechanical Engineering)", "category": "Academic", "icon": "academic", "lat": 32.0912, "lng": 74.8552, "description": "Department of Mechanical Engineering, workshops and thermo-fluids labs."},
+    {"id": "sciences", "name": "Basic Sciences & Humanities Block", "category": "Academic", "icon": "academic", "lat": 32.0899, "lng": 74.8550, "description": "Maths, physics and humanities classes for first-year students."},
+    {"id": "auditorium", "name": "Auditorium", "category": "Facilities", "icon": "auditorium", "lat": 32.0903, "lng": 74.8525, "description": "300-seat hall for orientation, seminars and society events."},
+    {"id": "cafeteria", "name": "Cafeteria", "category": "Food", "icon": "food", "lat": 32.0915, "lng": 74.8545, "description": "Tea, snacks and lunch, 8 am - 5 pm. Photocopy shop next door."},
+    {"id": "mosque", "name": "Campus Mosque", "category": "Facilities", "icon": "mosque", "lat": 32.0920, "lng": 74.8530, "description": "Five daily prayers and Jumu'ah."},
+    {"id": "sports", "name": "Sports Ground", "category": "Sports", "icon": "sports", "lat": 32.0922, "lng": 74.8555, "description": "Cricket / football ground, volleyball and basketball courts."},
+    {"id": "boys_hostel", "name": "Boys Hostel", "category": "Hostel", "icon": "hostel", "lat": 32.0928, "lng": 74.8540, "description": "Shared rooms, mess and common room. In-time 10:30 pm."},
+    {"id": "girls_hostel", "name": "Girls Hostel", "category": "Hostel", "icon": "hostel", "lat": 32.0926, "lng": 74.8522, "description": "Shared rooms, mess, female warden and security. In-time 9:00 pm."},
+    {"id": "medical", "name": "Medical Centre", "category": "Facilities", "icon": "medical", "lat": 32.0894, "lng": 74.8546, "description": "First aid and basic treatment during office hours."},
+    {"id": "parking", "name": "Parking & Bus Stand", "category": "Transport", "icon": "bus", "lat": 32.0888, "lng": 74.8541, "description": "University buses depart here at 2:30 pm and 4:30 pm. Motorcycle and car parking."}
+  ],
+  "paths": {
+    "_note": "Walkway graph used for directions. Nodes are buildings (by id) plus junction points j1..j5; edges are walkable straight segments.",
+    "junctions": [
+      {"id": "j1", "lat": 32.0894, "lng": 74.8534},
+      {"id": "j2", "lat": 32.0902, "lng": 74.8540},
+      {"id": "j3", "lat": 32.0908, "lng": 74.8547},
+      {"id": "j4", "lat": 32.0917, "lng": 74.8538},
+      {"id": "j5", "lat": 32.0923, "lng": 74.8533}
+    ],
+    "edges": [
+      ["gate", "j1"], ["gate", "parking"], ["parking", "medical"], ["j1", "admin"], ["j1", "library"],
+      ["j1", "j2"], ["admin", "j2"], ["library", "auditorium"], ["library", "j2"], ["medical", "sciences"],
+      ["j2", "block1"], ["j2", "block2"], ["j2", "sciences"], ["block1", "j3"], ["sciences", "j3"],
+      ["j3", "block3"], ["j3", "cafeteria"], ["block2", "j4"], ["cafeteria", "j4"], ["j4", "j5"],
+      ["j5", "mosque"], ["j5", "boys_hostel"], ["j5", "girls_hostel"], ["j4", "sports"], ["cafeteria", "sports"],
+      ["auditorium", "mosque"], ["block3", "sports"]
+    ]
+  }
+}

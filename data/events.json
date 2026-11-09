@@ -1,0 +1,12 @@
+{
+  "_note": "SAMPLE DATA: example events for the demo, not an official calendar.",
+  "events": [
+    {"title": "Freshers Orientation", "date": "2026-10-05", "place": "Auditorium", "building": "auditorium", "about": "Welcome talk, department introductions, rules and campus tour."},
+    {"title": "Society Fair", "date": "2026-10-14", "place": "Cafeteria lawn", "building": "cafeteria", "about": "Meet the IEEE branch, Computing Society, Robotics Club, Debating and more."},
+    {"title": "Fresher Welcome", "date": "2026-10-28", "place": "Sports Ground", "building": "sports", "about": "Evening welcome organised by the senior batch."},
+    {"title": "Speed Programming Contest", "date": "2026-11-20", "place": "CS Programming Lab I", "building": "block2", "about": "Teams of three, 3 hours, ICPC-style problems."},
+    {"title": "Mid-term Exams", "date": "2026-12-01", "place": "All blocks", "building": "admin", "about": "Date sheet on the student portal one week before."},
+    {"title": "Sports Gala", "date": "2027-02-15", "place": "Sports Ground", "building": "sports", "about": "Cricket, football, volleyball and athletics between departments."},
+    {"title": "Tech Fest & FYP Exhibition", "date": "2027-04-10", "place": "Academic Blocks", "building": "block1", "about": "Final-year projects, robotics competition and industry visitors."}
+  ]
+}
