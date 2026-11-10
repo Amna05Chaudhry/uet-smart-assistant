@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
                 physics: const NeverScrollableScrollPhysics(),
                 mainAxisSpacing: 12,
                 crossAxisSpacing: 12,
-                childAspectRatio: cols == 2 ? 1.05 : 1.35,
+                childAspectRatio: cols == 2 ? 1.05 : (cols == 4 ? 1.75 : 1.4),
                 children: [for (final t in topics) _TopicCard(topic: t)],
               ),
             ),
@@ -169,13 +169,22 @@ class _HeroChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ActionChip(
-      onPressed: onTap,
-      avatar: Icon(icon, size: 18, color: Colors.white),
-      label: Text(label),
-      labelStyle: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
-      backgroundColor: Colors.white.withValues(alpha: .15),
-      side: BorderSide(color: Colors.white.withValues(alpha: .3)),
+    return Material(
+      color: Colors.white.withValues(alpha: .15),
+      shape: StadiumBorder(side: BorderSide(color: Colors.white.withValues(alpha: .35))),
+      child: InkWell(
+        customBorder: const StadiumBorder(),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Icon(icon, size: 18, color: Colors.white),
+            const SizedBox(width: 6),
+            Text(label,
+                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
+          ]),
+        ),
+      ),
     );
   }
 }

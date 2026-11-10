@@ -45,7 +45,7 @@ class ChatService {
         final j = jsonDecode(utf8.decode(res.bodyBytes)) as Map<String, dynamic>;
         final related = (j['matches'] as List)
             .skip(1)
-            .where((m) => (m['score'] as num) > 0.2)
+            .where((m) => (m['score'] as num) > 0.35)
             .map((m) => m['question'] as String)
             .toList();
         return ChatReply(j['answer'], j['source'], j['llm_online'] == true, related);

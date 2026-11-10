@@ -63,7 +63,7 @@ class TopicScreen extends StatelessWidget {
               const SizedBox(height: 12),
               Wrap(spacing: 8, runSpacing: 8, children: [
                 FilledButton.icon(
-                  onPressed: () => backThen(() => app.ask('Tell me about ${topic.title.toLowerCase()}')),
+                  onPressed: () => backThen(() => app.ask(faqs.isNotEmpty ? faqs.first.question : topic.title)),
                   icon: const Icon(Icons.chat_bubble_outline, size: 18),
                   label: const Text('Ask the assistant'),
                 ),

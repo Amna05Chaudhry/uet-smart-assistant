@@ -89,13 +89,14 @@ class _MapScreenState extends State<MapScreen> {
     setState(() => _route = r);
     if (r != null && r.points.length > 1) {
       _map.fitCamera(CameraFit.coordinates(
-          coordinates: r.points, padding: const EdgeInsets.fromLTRB(60, 200, 60, 260)));
+          coordinates: r.points, padding: const EdgeInsets.fromLTRB(60, 230, 60, 60)));
     }
   }
 
   void _directionsTo(Building b) {
     setState(() {
       _directions = true;
+      _selected = null;
       _to = b.id;
       if (_from == null || _from == b.id) _from = b.id == 'gate' ? 'parking' : 'gate';
     });
@@ -149,7 +150,7 @@ class _MapScreenState extends State<MapScreen> {
                   point: b.point,
                   width: 120,
                   height: 64,
-                  alignment: Alignment.topCenter,
+                  alignment: Alignment(0, 0.375), // icon centre on the point,
                   child: _Pin(
                     building: b,
                     selected: _selected?.id == b.id || b.id == _from || b.id == _to,
@@ -293,6 +294,7 @@ class _MapScreenState extends State<MapScreen> {
         value: b.id, child: Text(b.name, overflow: TextOverflow.ellipsis));
     Widget pick(String label, IconData icon, String? value, ValueChanged<String?> onChanged) =>
         DropdownButtonFormField<String>(
+          key: ValueKey('$label-$value'),
           initialValue: value,
           isExpanded: true,
           decoration: InputDecoration(

@@ -37,15 +37,12 @@ class DepartmentsScreen extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                     color: Theme.of(context).colorScheme.onSurfaceVariant)),
             const SizedBox(height: 16),
-            GridView.count(
-              crossAxisCount: cols,
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              mainAxisSpacing: 12,
-              crossAxisSpacing: 12,
-              childAspectRatio: cols == 2 ? 2.6 : (width < 420 ? 1.9 : 2.6),
-              children: [for (final d in depts) _DeptCard(dept: d)],
-            ),
+            LayoutBuilder(builder: (context, box) {
+              final w = (box.maxWidth - 12 * (cols - 1)) / cols;
+              return Wrap(spacing: 12, runSpacing: 12, children: [
+                for (final d in depts) SizedBox(width: w, child: _DeptCard(dept: d)),
+              ]);
+            }),
           ]),
         ),
       ]),
@@ -82,12 +79,9 @@ class _DeptCard extends StatelessWidget {
                 Text(dept.degree,
                     style: theme.textTheme.bodySmall?.copyWith(color: color, fontWeight: FontWeight.w600)),
                 const SizedBox(height: 6),
-                Expanded(
-                  child: Text(dept.about,
-                      overflow: TextOverflow.fade,
-                      style: theme.textTheme.bodySmall
-                          ?.copyWith(color: theme.colorScheme.onSurfaceVariant)),
-                ),
+                Text(dept.about,
+                    style: theme.textTheme.bodySmall
+                        ?.copyWith(color: theme.colorScheme.onSurfaceVariant)),
               ]),
             ),
             const Icon(Icons.chevron_right_rounded),

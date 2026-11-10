@@ -1,6 +1,6 @@
 {
   "_note": "PLACEHOLDER COORDINATES. The campus centre and every building position below are approximate, laid out around Narowal for the demo. Amna: open the campus in Google Maps / OpenStreetMap, right-click each building to copy its lat/lng, and replace the values here (and the path nodes). Building names are sample data too.",
-  "center": [32.0905, 74.8545],
+  "center": [32.0910, 74.8540],
   "zoom": 17.2,
   "buildings": [
     {"id": "gate", "name": "Main Gate", "category": "Entrance", "icon": "gate", "lat": 32.0890, "lng": 74.8530, "description": "Main entrance on the city road. Security office, visitor passes and lost & found."},

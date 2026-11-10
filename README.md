@@ -4,9 +4,11 @@
 
 ![Home screen](docs/screenshot_home.png)
 
-| Assistant | Campus map with directions | Department detail |
-|---|---|---|
-| ![Chat](docs/screenshot_chat.png) | ![Map](docs/screenshot_map.png) | ![Department](docs/screenshot_department.png) |
+| Assistant (retrieval over the FAQ) | Campus map with walking directions |
+|---|---|
+| ![Chat](docs/screenshot_chat.png) | ![Map](docs/screenshot_map.png) |
+| **Department detail** | **Dark mode** |
+| ![Department](docs/screenshot_department.png) | ![Dark mode](docs/screenshot_home_dark.png) |
 
 > Student project, not an official university app. Campus-specific details in `data/` (fees, dates, contacts, building positions) are **sample data** written for the demo. Verify them with the university before relying on them.
 
