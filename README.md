@@ -26,7 +26,7 @@
 
 ```mermaid
 flowchart LR
-    subgraph Flutter app (web / Android / iOS)
+    subgraph app["Flutter app (web / Android / iOS)"]
         H[Home & topic pages] --> D[(bundled data/*.json)]
         M[Campus map<br/>flutter_map + OSM] --> D
         M --> R[Dijkstra over<br/>walkway graph]
@@ -34,7 +34,7 @@ flowchart LR
         C -. server unreachable .-> L[on-device FAQ matcher]
         L --> D
     end
-    subgraph FastAPI server
+    subgraph server["FastAPI server"]
         API[/api/chat/] --> T[TF-IDF retrieval<br/>word 1-2 + char 3-5 grams]
         T --> F[(data/faq.json<br/>158 Q&A)]
         T -->|top-3 entries| G{LLM key set?}
